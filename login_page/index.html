@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign In | Wanderly</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/login_page/style.css" />
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="/main_page/index.html" class="logo">Wanderly<span>.in</span></a>
+
+    <div class="nav-right">
+      New here?
+      <a href="/signup_page/index.html">Create account</a>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="visual">
+      <div class="visual-content">
+        <div class="eyebrow">✦ The world is calling</div>
+        <h1>Your next chapter starts somewhere new.</h1>
+        <p>
+          Sign in to discover extraordinary destinations, save your
+          favorite escapes, and keep your travel dreams close.
+        </p>
+        <div class="travel-note">
+          <span>✧</span>
+          <span>Collect moments, not just destinations.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="login-area">
+      <div class="welcome">Welcome back</div>
+      <h2>Sign in to Wanderly.in</h2>
+      <p class="subtitle">
+        Your next adventure is just a few steps away.
+      </p>
+
+      <form id="loginForm">
+        <div class="field">
+          <label for="email">Email address</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="you@example.com"
+            autocomplete="email"
+            required
+          />
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="input-wrap">
+            <input
+              type="password"
+              id="password"
+              class="password-input"
+              placeholder="Enter your password"
+              autocomplete="current-password"
+              required
+            />
+            <button
+              type="button"
+              class="toggle-password"
+              id="togglePassword"
+            >Show</button>
+          </div>
+        </div>
+
+        <div class="form-options">
+          <label class="remember">
+            <input type="checkbox" id="remember" />
+            Remember me
+          </label>
+          <a href="forgot-password.html" class="forgot">
+            Forgot password?
+          </a>
+        </div>
+
+        <button class="submit-btn" type="submit">
+          Sign In &nbsp; →
+        </button>
+
+        <div class="message" id="message" role="status"></div>
+      </form>
+
+      <div class="divider">or continue with</div>
+
+      <button class="google-btn" type="button" id="googleBtn">
+        <span class="google-icon">G</span>
+        Continue with Google
+      </button>
+
+      <div class="signup">
+        Don't have an account?
+        <a href="signup.html">Sign up</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2026 Wanderly · Discover beyond the ordinary.
+  </footer>
+
+  <script src="/login_page/script.js"></script>
+</body>
+</html>
