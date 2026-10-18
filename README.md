@@ -111,7 +111,7 @@ Ensure all project files are included and linked paths are correct before deploy
 
 ## 📜 License
 
-This project is intended for educational and portfolio purposes. Add a license file if you plan to distribute or reuse the project under specific terms.
+This project is intended for educational and portfolio purposes.
 
 ---
 
